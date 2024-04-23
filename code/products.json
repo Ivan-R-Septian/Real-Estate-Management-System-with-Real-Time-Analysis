@@ -1,0 +1,92 @@
+[
+    {
+        "location": "bandung",
+        "capital": "graha citra",
+        "type": "type 21",
+        "detail": "3 x 7 m2",
+        "stock": 9,
+        "sell_price": 300000000,
+        "rent_price": 15000000
+    },
+    {
+        "location": "bandung",
+        "capital": "graha citra",
+        "type": "type 36",
+        "detail": "6 x 6 m2",
+        "stock": 10,
+        "sell_price": 400000000,
+        "rent_price": 20000000
+    },
+    {
+        "location": "jakarta",
+        "capital": "graha mega",
+        "type": "type 90",
+        "detail": "9 x 10 m2",
+        "stock": 9,
+        "sell_price": 1200000000,
+        "rent_price": 60000000
+    },
+    {
+        "location": "jakarta",
+        "capital": "graha mega",
+        "type": "type 120",
+        "detail": "10 x 12 m2",
+        "stock": 10,
+        "sell_price": 1500000000,
+        "rent_price": 75000000
+    },
+    {
+        "location": "bandung",
+        "capital": "graha mega",
+        "type": "type 90",
+        "detail": "9 x 10 m2",
+        "stock": 9,
+        "sell_price": 1100000000,
+        "rent_price": 55000000
+    },
+    {
+        "location": "bandung",
+        "capital": "graha mega",
+        "type": "type 120",
+        "detail": "10 x 12 m2",
+        "stock": 10,
+        "sell_price": 1300000000,
+        "rent_price": 65000000
+    },
+    {
+        "location": "surabaya",
+        "capital": "graha beverly",
+        "type": "type 54",
+        "detail": "6 x 9 m2",
+        "stock": 10,
+        "sell_price": 600000000,
+        "rent_price": 30000000
+    },
+    {
+        "location": "surabaya",
+        "capital": "graha beverly",
+        "type": "type 60",
+        "detail": "6 x 10 m2",
+        "stock": 10,
+        "sell_price": 700000000,
+        "rent_price": 35000000
+    },
+    {
+        "location": "surabaya",
+        "capital": "graha beverly",
+        "type": "type 70",
+        "detail": "7 x 10 m2",
+        "stock": 10,
+        "sell_price": 800000000,
+        "rent_price": 40000000
+    },
+    {
+        "location": "semarang",
+        "capital": "graha mega",
+        "type": "type 120",
+        "detail": "10 x 10m2",
+        "stock": 10,
+        "sell_price": 1000000000,
+        "rent_price": 50000000
+    }
+]

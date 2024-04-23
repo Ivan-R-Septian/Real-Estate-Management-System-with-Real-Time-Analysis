@@ -1,0 +1,26 @@
+[
+    {
+        "name": "00",
+        "location": "11",
+        "capital": "1111",
+        "type": "1",
+        "detail": "`10x40",
+        "stock": 1,
+        "total_sell_price": 80320,
+        "total_rent_price": 0,
+        "start_date": "2024-04-23 14:26:45",
+        "end_date": "3023-08-25 14:26:45"
+    },
+    {
+        "name": "010201",
+        "location": "11",
+        "capital": "1111",
+        "type": "1",
+        "detail": "`10x40",
+        "stock": 1,
+        "total_sell_price": 0,
+        "total_rent_price": 60050510,
+        "start_date": "2024-04-23 14:29:04",
+        "end_date": "2024-04-23 14:34:04"
+    }
+]
