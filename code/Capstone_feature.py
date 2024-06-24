@@ -43,7 +43,7 @@ def get_int_input(prompt):
                         return float_value
                 except ValueError:
                     return user_input
-
+                            
 # function to split string
 def custom_type(value):
         try:
@@ -63,6 +63,7 @@ def rental_duration():
                     user_item["type"] == product["type"]):
                     product["stock"] += user_item["stock"]
             user_item["stock"] = 0
+        user_item["end_date"] = date_obj.strftime("%Y-%m-%d %H:%M:%S")
     save_data(products, "products.json")
     save_data(dict_list, "user.json")
 
@@ -157,7 +158,7 @@ def generate_bill_buy(user_input_buy_name):
     for item in buy_item:
         total_bill += item[4] * item[5]
     print("******************************************************************************")
-    print(f"\t\t\t\t\t\tTotal Bill Amount: {total_bill}")
+    print(f"\t\t\t\t\t\t Total Bill Amount: {total_bill}")
     print("\n")
 
 def generate_bill_rent(user_input_rent_name):
@@ -171,7 +172,7 @@ def generate_bill_rent(user_input_rent_name):
     for item in rent_item:
         total_bill += item[4] * item[5] * item[6]
     print("*********************************************************************************************")
-    print(f"\t\t\t\t\t\t\Total Bill Amount: {total_bill}")
+    print(f"\t\t\t\t\t\t Total Bill Amount: {total_bill}")
     print("\n")
 
 
@@ -183,6 +184,7 @@ def display():
 
 def display_full():
     table_data.clear()
+    rental_duration()
     for prop in products:
         if prop["stock"] == 0:
             available = "Sold Out"

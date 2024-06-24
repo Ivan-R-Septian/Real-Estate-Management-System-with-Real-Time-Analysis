@@ -109,6 +109,7 @@ def buy_menu(user_input_buy_name):
                                                                 buy_item_to_dict(user_input_buy_name)
                                                                 calculate_products()
                                                                 buy_item.clear()
+                                                                user_calculation_list()
                                                                 return
                                                             elif user_money < sum(item[4] * item[5] for item in buy_item):
                                                                 warning([f"You need to pay {sum(item[4] * item[5] for item in buy_item)} to complete."])
@@ -117,6 +118,7 @@ def buy_menu(user_input_buy_name):
                                                                 buy_item_to_dict(user_input_buy_name)
                                                                 calculate_products()
                                                                 buy_item.clear()
+                                                                user_calculation_list.clear()
                                                                 return
                                                         except ValueError:
                                                             warning(["Please enter a valid amount for money."])
@@ -228,6 +230,7 @@ def rent_menu(user_input_rent_name):
                                                                 calculate_products()
                                                                 warning(["Thank you!"])
                                                                 rent_item.clear()
+                                                                user_calculation_list.clear()
                                                                 return
                                                             elif user_money < sum(item[4] * item[5] * item[6] for item in rent_item):
                                                                 warning([f"You need to pay {sum(item[4] * item[5] * item[6] for item in rent_item)} to complete."])
@@ -236,6 +239,7 @@ def rent_menu(user_input_rent_name):
                                                                 calculate_products()
                                                                 warning([f"Your change is {user_money - sum(item[4] * item[5] * item[6] for item in rent_item)}."])
                                                                 rent_item.clear()
+                                                                user_calculation_list.clear()
                                                                 return
                                                         except ValueError:
                                                             warning(["Please enter a valid amount for money."])

@@ -33,6 +33,7 @@ def display_menu_display_owner():
     display_full_owner()
     while True:    
         try:
+            rental_duration()
             display_menu = [[1,"Sort"],[2,"Search"]]
             headers = ["Index", '''DISPLAY MENU
 (Choose this menu using index)''']
@@ -47,7 +48,7 @@ def display_menu_display_owner():
                     sort_all_menu_owner()
                     break
                 elif user_input_display == 2:
-                    search_all_menu()
+                    search_all_menu_owner()
                     break
                 else:
                     warning(["Invalid input. Please choose display menu only by menu index or 'back'"])
@@ -197,6 +198,9 @@ def profit_plot():
     plt.legend()
     plt.tight_layout()
     plt.show()
+    for item in dict_list:
+        item["start_date"] = item["start_date"].strftime("%Y-%m-%d %H:%M:%S")
+    
 
 def view_profit():
     while True:
@@ -204,6 +208,7 @@ def view_profit():
         total_profit()
         graph = get_str_input("Do you want to see the profit graph? (yes/no) ")
         if graph == "no":
+            rental_duration()
             break
         elif graph == "yes":
             profit_plot()
