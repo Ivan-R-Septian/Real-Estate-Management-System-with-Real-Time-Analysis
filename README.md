@@ -2,7 +2,7 @@
 This repository showcases the culmination of my efforts during the DTI Data Science program at Purwadhika. The primary focus of this capstone project is on real estate management.
 
 # About the Project:
-The project centers around the development of a Real Estate Management System implemented using Python programming language. The system's core functionality revolves around CRUD operations (Create, Read, Update, Delete), enabling seamless management of real estate data. Leveraging Python's versatility, the project encompasses a comprehensive suite of features tailored to address various real estate management needs.
+Developed a Python-based Real Estate Management System focused on CRUD operations (Create, Read, Update, Delete) for seamless data management. The system includes a feature to store and track real-time data on property purchases and rentals, enabling instant profit and rental period analysis. Additionally, graphical visualizations are provided to support profit analysis and enhance decision-making.
 
 # Features
 ## Admin:
